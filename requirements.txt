@@ -8,7 +8,7 @@ joblib==1.0.0
 kiwisolver==1.3.1
 MarkupSafe==1.1.1
 numpy==1.19.4
-pandas==1.2.0
+
 Pillow==8.0.1
 prettytable==2.0.0
 pyparsing==2.4.7
@@ -21,3 +21,4 @@ sklearn==0.0
 threadpoolctl==2.1.0
 wcwidth==0.2.5
 Werkzeug==1.0.1
+pandas==1.2.0
