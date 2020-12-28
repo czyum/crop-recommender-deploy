@@ -21,4 +21,4 @@ sklearn==0.0
 threadpoolctl==2.1.0
 wcwidth==0.2.5
 Werkzeug==1.0.1
-pandas==1.2.0
+pandas
