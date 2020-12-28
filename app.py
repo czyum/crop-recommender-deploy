@@ -6,9 +6,6 @@ import sklearn
 from werkzeug.utils import secure_filename
 app = Flask(__name__)
 app.secret_key="."
-model = pickle.load(open('./static/CropPredictRF.pkl', 'rb'))
-scaler=pickle.load(open('./static/CropScaler.pkl', 'rb'))
-
 y_label=None
 Type={'rice': 0, 'wheat': 1, 'Mung Bean': 2, 'Tea': 3, 'millet': 4, 'maize': 5, 'Lentil': 6,\
      'Jute': 7, 'Coffee': 8, 'Cotton': 9, 'Ground Nut': 10, 'Peas': 11, 'Rubber': 12, \
@@ -17,7 +14,7 @@ Type={'rice': 0, 'wheat': 1, 'Mung Bean': 2, 'Tea': 3, 'millet': 4, 'maize': 5, 
                   'Chickpea': 21, 'banana': 22, 'grapes': 23, 'apple': 24, 'mango': 25,\
                        'muskmelon': 26, 'orange': 27, 'papaya': 28, 'pomegranate': 29, 'watermelon': 30}
 Crop={v:k for k,v in Type.items()} 
-model=pickle.load(open('./static/CropPredictRF.pkl', 'rb'))
+model=pickle.load(open('./static/CropPredictsvm.pkl', 'rb'))
 scaler=pickle.load(open('./static/CropScaler.pkl', 'rb'))
 
             
