@@ -1,5 +1,6 @@
 # crop-recommender-deploy
 ## Deploying ML app using flask
+### Deployed at https://ml-crop-recommender.herokuapp.com/
 ### This is a deployment of model trained view at https://github.com/czyum/Multiclass_Classification-Crop-Dataset
 
 ## How to use?
