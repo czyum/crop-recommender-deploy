@@ -6,31 +6,32 @@
         <div class="card">
             <div class="card-header">
                 <div>
-                    <h3>Recommender</h3>
+                    <h3>Classifier</h3>
                 </div>
             </div>
             <div class="card-body">
                 <form action="/" method="POST">
-                    <label for="temperature">Temperature</label>
+                    <label for="petal_length">Petal Length</label>
                     <div class="input-group form-group">
 
-                        <input type="number" id="temperature" class="form-control" step="0.000001" name="temperature" placeholder="Temperature celsius" min="5" max="55" required>
+                        <input type="number" id="petal_length" class="form-control"  name="petal_length" placeholder="Length cm" required>
                     </div>
-                    <label for="humidity">Humidity</label>
+                    <label for="petal_width">Petal Width</label>
                     <div class="input-group form-group">
 
-                        <input type="number" class="form-control" step="0.000001" name="humidity" placeholder="Humidity percent" min="10" max="100" required>
+                        <input type="number" id="petal_width" class="form-control"  name="petal_width" placeholder="Width cm" required>
                     </div>
-                    <label for="ph">pH</label>
+                    <label for="sepal_length">Sepal Length</label>
                     <div class="input-group form-group">
 
-                        <input type="number" class="form-control" step="0.000001" name="ph" placeholder="pH" min="3" max="11" required>
+                        <input type="number" id="sepal_length" class="form-control"  name="sepal_length" placeholder="Length cm" required>
                     </div>
-                    <label for="rainfall">Rainfall</label>
+                    <label for="sepal_width">Sepal Width</label>
                     <div class="input-group form-group">
 
-                        <input type="number" class="form-control" step="0.000001" name="rainfall" placeholder="Rainfall mm" min="20" max="400" required>
+                        <input type="number" id="sepal_width" class="form-control"  name="sepal_width" placeholder="Width cm" required>
                     </div>
+                    
 
 
                     <div class="form-group text-center">
